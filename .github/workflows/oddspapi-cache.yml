@@ -1,0 +1,194 @@
+name: Oddspapi Cache
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 18 * * *" # 20:30 PL latem; zimą będzie 19:30 PL
+
+permissions:
+  contents: write
+
+jobs:
+  cache:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch OddsPapi cache
+        env:
+          ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
+        run: |
+          node <<'JS'
+          const fs = require("fs");
+          const path = require("path");
+
+          const key = process.env.ODDSPAPI_KEY;
+          if (!key) throw new Error("Missing ODDSPAPI_KEY");
+
+          const outDir = "public/odds-cache";
+          fs.mkdirSync(outDir, { recursive: true });
+
+          const now = new Date();
+          const from = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate(), 0, 0, 0));
+          const to = new Date(from.getTime() + 72 * 60 * 60 * 1000);
+
+          async function get(endpoint, params = {}) {
+            const url = new URL(`https://api.oddspapi.io/v4/${endpoint}`);
+            for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
+            url.searchParams.set("apiKey", key);
+
+            const res = await fetch(url);
+            const text = await res.text();
+            if (!res.ok) throw new Error(`${endpoint} ${res.status}: ${text.slice(0, 300)}`);
+            return JSON.parse(text);
+          }
+
+          function isMainAtpWtaTournament(t) {
+            const cat = String(t.categorySlug || t.categoryName || "").toLowerCase();
+            const name = String(t.tournamentName || t.tournamentSlug || "").toLowerCase();
+
+            if (!(cat === "atp" || cat === "wta")) return false;
+            if (name.includes("challenger")) return false;
+            if (name.includes("itf")) return false;
+            if (name.includes("125")) return false;
+            if (name.includes("doubles") || name.includes("double")) return false;
+
+            return true;
+          }
+
+          function findMoneylineMarkets(fixture) {
+            const book = fixture.bookmakerOdds?.pinnacle;
+            if (!book?.markets) return [];
+
+            const markets = [];
+            for (const [marketId, market] of Object.entries(book.markets)) {
+              const text = `${market.bookmakerMarketId || ""} ${marketId}`.toLowerCase();
+
+              // defensywnie: bierz tylko oczywiste match winner / moneyline, nie totals/spreads/teamTotal
+              if (
+                text.includes("total") ||
+                text.includes("spread") ||
+                text.includes("handicap") ||
+                text.includes("teamtotal") ||
+                text.includes("set") ||
+                text.includes("game")
+              ) continue;
+
+              const outcomes = [];
+              for (const [outcomeId, outcome] of Object.entries(market.outcomes || {})) {
+                for (const player of Object.values(outcome.players || {})) {
+                  if (!player || player.price == null) continue;
+                  outcomes.push({
+                    outcome_id: outcomeId,
+                    bookmaker_outcome_id: player.bookmakerOutcomeId || null,
+                    price: Number(player.price),
+                    active: player.active !== false,
+                    limit: player.limit ?? null,
+                    name: player.playerName || null,
+                  });
+                }
+              }
+
+              if (outcomes.length === 2) {
+                markets.push({
+                  market_id: marketId,
+                  bookmaker_market_id: market.bookmakerMarketId || null,
+                  market_active: market.marketActive !== false,
+                  outcomes,
+                });
+              }
+            }
+            return markets;
+          }
+
+          const errors = [];
+
+          const sports = await get("sports").catch(e => {
+            errors.push(String(e.message || e));
+            return [];
+          });
+
+          const tournaments = await get("tournaments", { sportId: "12" });
+          const fixtures = await get("fixtures", {
+            sportId: "12",
+            from: from.toISOString(),
+            to: to.toISOString(),
+          });
+
+          const tournamentById = new Map(tournaments.map(t => [String(t.tournamentId), t]));
+
+          const selectedIds = [...new Set(
+            fixtures
+              .map(f => String(f.tournamentId))
+              .filter(id => isMainAtpWtaTournament(tournamentById.get(id) || {}))
+          )];
+
+          let odds = [];
+          if (selectedIds.length) {
+            odds = await get("odds-by-tournaments", {
+              tournamentIds: selectedIds.join(","),
+              bookmaker: "pinnacle",
+            });
+          }
+
+          const normalized = [];
+          for (const fixture of odds) {
+            const markets = findMoneylineMarkets(fixture);
+            const status = markets.length ? "moneyline_found" : "market_type_unknown";
+
+            normalized.push({
+              source: "oddspapi_v4_github_actions",
+              bookmaker: "pinnacle",
+              fixture_id: fixture.fixtureId,
+              tournament_id: fixture.tournamentId,
+              sport_id: fixture.sportId,
+              start_time: fixture.startTime,
+              has_odds: fixture.hasOdds === true,
+              status,
+              markets,
+            });
+          }
+
+          const manifest = {
+            version: 1,
+            source: "oddspapi_v4_github_actions",
+            provider: "oddspapi_v4",
+            bookmaker: "pinnacle",
+            generated_at: now.toISOString(),
+            window_from: from.toISOString(),
+            window_to: to.toISOString(),
+            sports_ok: Array.isArray(sports) && sports.some(s => s.sportId === 12),
+            tournaments_count: tournaments.length,
+            fixtures_count: fixtures.length,
+            selected_tournaments_count: selectedIds.length,
+            selected_tournament_ids: selectedIds,
+            odds_fixtures_count: odds.length,
+            normalized_moneyline_count: normalized.filter(x => x.status === "moneyline_found").length,
+            errors,
+          };
+
+          function write(name, data) {
+            fs.writeFileSync(path.join(outDir, name), JSON.stringify(data, null, 2));
+          }
+
+          write("manifest.json", manifest);
+          write("tournaments.json", tournaments);
+          write("fixtures.json", fixtures);
+          write("odds.json", odds);
+          write("normalized_moneyline.json", normalized);
+
+          console.log(JSON.stringify(manifest, null, 2));
+          JS
+
+      - name: Commit cache
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add public/odds-cache
+          git commit -m "Update Oddspapi odds cache" || echo "No cache changes"
+          git push
