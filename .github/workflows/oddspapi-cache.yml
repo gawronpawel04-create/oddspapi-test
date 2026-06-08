@@ -23,7 +23,7 @@ jobs:
         env:
           ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
         run: |
-          node <<'JS'
+          node --input-type=commonjs <<'JS'
           const fs = require("fs");
           const path = require("path");
 
