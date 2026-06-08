@@ -23,9 +23,9 @@ jobs:
         env:
           ODDSPAPI_KEY: ${{ secrets.ODDSPAPI_KEY }}
         run: |
-          node --input-type=commonjs <<'JS'
-          const fs = require("fs");
-          const path = require("path");
+          node --input-type=module <<'JS'
+          import fs from "fs";
+          import path from "path";
 
           const key = process.env.ODDSPAPI_KEY;
           if (!key) throw new Error("Missing ODDSPAPI_KEY");
@@ -49,8 +49,8 @@ jobs:
           }
 
           function isMainAtpWtaTournament(t) {
-            const cat = String(t.categorySlug || t.categoryName || "").toLowerCase();
-            const name = String(t.tournamentName || t.tournamentSlug || "").toLowerCase();
+            const cat = String(t?.categorySlug || t?.categoryName || "").toLowerCase();
+            const name = String(t?.tournamentName || t?.tournamentSlug || "").toLowerCase();
 
             if (!(cat === "atp" || cat === "wta")) return false;
             if (name.includes("challenger")) return false;
@@ -66,10 +66,10 @@ jobs:
             if (!book?.markets) return [];
 
             const markets = [];
+
             for (const [marketId, market] of Object.entries(book.markets)) {
               const text = `${market.bookmakerMarketId || ""} ${marketId}`.toLowerCase();
 
-              // defensywnie: bierz tylko oczywiste match winner / moneyline, nie totals/spreads/teamTotal
               if (
                 text.includes("total") ||
                 text.includes("spread") ||
@@ -77,12 +77,15 @@ jobs:
                 text.includes("teamtotal") ||
                 text.includes("set") ||
                 text.includes("game")
-              ) continue;
+              ) {
+                continue;
+              }
 
               const outcomes = [];
               for (const [outcomeId, outcome] of Object.entries(market.outcomes || {})) {
                 for (const player of Object.values(outcome.players || {})) {
                   if (!player || player.price == null) continue;
+
                   outcomes.push({
                     outcome_id: outcomeId,
                     bookmaker_outcome_id: player.bookmakerOutcomeId || null,
@@ -103,6 +106,7 @@ jobs:
                 });
               }
             }
+
             return markets;
           }
 
@@ -120,12 +124,14 @@ jobs:
             to: to.toISOString(),
           });
 
-          const tournamentById = new Map(tournaments.map(t => [String(t.tournamentId), t]));
+          const tournamentById = new Map(
+            tournaments.map(t => [String(t.tournamentId), t])
+          );
 
           const selectedIds = [...new Set(
             fixtures
               .map(f => String(f.tournamentId))
-              .filter(id => isMainAtpWtaTournament(tournamentById.get(id) || {}))
+              .filter(id => isMainAtpWtaTournament(tournamentById.get(id)))
           )];
 
           let odds = [];
@@ -137,6 +143,7 @@ jobs:
           }
 
           const normalized = [];
+
           for (const fixture of odds) {
             const markets = findMoneylineMarkets(fixture);
             const status = markets.length ? "moneyline_found" : "market_type_unknown";
