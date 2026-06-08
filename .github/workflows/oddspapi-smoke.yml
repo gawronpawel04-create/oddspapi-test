@@ -1,0 +1,21 @@
+name: Oddspapi Smoke
+
+on:
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test sports
+        run: |
+          curl -sS -i "https://api.oddspapi.io/v4/sports?apiKey=${{ secrets.ODDSPAPI_KEY }}" | head -c 1000
+
+      - name: Test tennis tournaments
+        run: |
+          curl -sS -i "https://api.oddspapi.io/v4/tournaments?sportId=12&apiKey=${{ secrets.ODDSPAPI_KEY }}" | head -c 2000
+
+      - name: Test odds
+        run: |
+          curl -sS -i "https://api.oddspapi.io/v4/odds-by-tournaments?tournamentIds=2775,2871,7625,44323&bookmaker=pinnacle&apiKey=${{ secrets.ODDSPAPI_KEY }}" | head -c 3000
