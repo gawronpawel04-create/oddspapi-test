@@ -2,55 +2,55 @@
   {
     "source": "oddspapi_v4_github_actions",
     "bookmaker": "pinnacle",
-    "fixture_id": "id1200255572318984",
-    "tournament_id": 2555,
+    "fixture_id": "id1200255972320486",
+    "tournament_id": 2559,
     "sport_id": 12,
-    "start_time": "2026-07-08T13:10:00.000Z",
+    "start_time": "2026-07-09T12:30:00.000Z",
     "has_odds": true,
     "status": "moneyline_found",
     "markets": [
       {
         "market_id": "121",
-        "bookmaker_market_id": "line/33/3332/1632384036/3657557845/0/moneyline",
+        "bookmaker_market_id": "line/33/3825/1632388627/3657997682/0/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "121",
             "bookmaker_outcome_id": "home",
-            "price": 1.943,
+            "price": 1.884,
             "active": true,
-            "limit": 4268,
+            "limit": 12302,
             "name": null
           },
           {
             "outcome_id": "122",
             "bookmaker_outcome_id": "away",
-            "price": 1.943,
+            "price": 2.02,
             "active": true,
-            "limit": 4268,
+            "limit": 10875,
             "name": null
           }
         ]
       },
       {
         "market_id": "123",
-        "bookmaker_market_id": "line/33/3332/1632384036/3657556083/1/moneyline",
+        "bookmaker_market_id": "line/33/3825/1632388627/3657997687/1/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "123",
             "bookmaker_outcome_id": "home",
-            "price": 1.934,
+            "price": 1.909,
             "active": true,
-            "limit": 3225,
+            "limit": 8965,
             "name": null
           },
           {
             "outcome_id": "124",
             "bookmaker_outcome_id": "away",
-            "price": 1.934,
+            "price": 1.98,
             "active": true,
-            "limit": 3225,
+            "limit": 8316,
             "name": null
           }
         ]
@@ -60,53 +60,111 @@
   {
     "source": "oddspapi_v4_github_actions",
     "bookmaker": "pinnacle",
-    "fixture_id": "id1200255572318986",
-    "tournament_id": 2555,
+    "fixture_id": "id1200255972320484",
+    "tournament_id": 2559,
     "sport_id": 12,
-    "start_time": "2026-07-08T13:40:00.000Z",
+    "start_time": "2026-07-09T13:40:00.000Z",
     "has_odds": true,
     "status": "moneyline_found",
     "markets": [
       {
         "market_id": "121",
-        "bookmaker_market_id": "line/33/3332/1632366626/3657548734/0/moneyline",
+        "bookmaker_market_id": "line/33/3825/1632409404/3658418908/0/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "121",
             "bookmaker_outcome_id": "home",
-            "price": 1.4,
+            "price": 1.8,
             "active": true,
-            "limit": 25125,
+            "limit": 8156,
             "name": null
           },
           {
             "outcome_id": "122",
             "bookmaker_outcome_id": "away",
-            "price": 3.22,
+            "price": 2.11,
             "active": true,
-            "limit": 10050,
+            "limit": 6525,
             "name": null
           }
         ]
       },
       {
         "market_id": "123",
-        "bookmaker_market_id": "line/33/3332/1632366626/3657548735/1/moneyline",
+        "bookmaker_market_id": "line/33/3825/1632409404/3658418909/1/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "123",
             "bookmaker_outcome_id": "home",
-            "price": 1.568,
+            "price": 1.854,
             "active": true,
-            "limit": 13270,
+            "limit": 5723,
             "name": null
           },
           {
             "outcome_id": "124",
             "bookmaker_outcome_id": "away",
-            "price": 2.56,
+            "price": 2.02,
+            "active": true,
+            "limit": 4887,
+            "name": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "oddspapi_v4_github_actions",
+    "bookmaker": "pinnacle",
+    "fixture_id": "id1200255572318982",
+    "tournament_id": 2555,
+    "sport_id": 12,
+    "start_time": "2026-07-10T12:30:00.000Z",
+    "has_odds": true,
+    "status": "moneyline_found",
+    "markets": [
+      {
+        "market_id": "121",
+        "bookmaker_market_id": "line/33/3337/1632388907/3658457153/0/moneyline",
+        "market_active": true,
+        "outcomes": [
+          {
+            "outcome_id": "121",
+            "bookmaker_outcome_id": "home",
+            "price": 1.246,
+            "active": true,
+            "limit": 30640,
+            "name": null
+          },
+          {
+            "outcome_id": "122",
+            "bookmaker_outcome_id": "away",
+            "price": 4.5,
+            "active": true,
+            "limit": 7537,
+            "name": null
+          }
+        ]
+      },
+      {
+        "market_id": "123",
+        "bookmaker_market_id": "line/33/3337/1632388907/3658457154/1/moneyline",
+        "market_active": true,
+        "outcomes": [
+          {
+            "outcome_id": "123",
+            "bookmaker_outcome_id": "home",
+            "price": 1.42,
+            "active": true,
+            "limit": 17946,
+            "name": null
+          },
+          {
+            "outcome_id": "124",
+            "bookmaker_outcome_id": "away",
+            "price": 3.07,
             "active": true,
             "limit": 7537,
             "name": null
@@ -118,171 +176,55 @@
   {
     "source": "oddspapi_v4_github_actions",
     "bookmaker": "pinnacle",
-    "fixture_id": "id1200255972320488",
-    "tournament_id": 2559,
+    "fixture_id": "id1200255572318994",
+    "tournament_id": 2555,
     "sport_id": 12,
-    "start_time": "2026-07-08T12:00:00.000Z",
+    "start_time": "2026-07-10T12:30:00.000Z",
     "has_odds": true,
     "status": "moneyline_found",
     "markets": [
       {
         "market_id": "121",
-        "bookmaker_market_id": "line/33/3820/1632366611/3657248884/0/moneyline",
+        "bookmaker_market_id": "line/33/3337/1632408936/3658482844/0/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "121",
             "bookmaker_outcome_id": "home",
-            "price": 1.649,
+            "price": 6.09,
             "active": true,
-            "limit": 15408,
+            "limit": 2512,
             "name": null
           },
           {
             "outcome_id": "122",
             "bookmaker_outcome_id": "away",
-            "price": 2.39,
+            "price": 1.151,
             "active": true,
-            "limit": 10000,
+            "limit": 16639,
             "name": null
           }
         ]
       },
       {
         "market_id": "123",
-        "bookmaker_market_id": "line/33/3820/1632366611/3657248885/1/moneyline",
+        "bookmaker_market_id": "line/33/3337/1632408936/3658482849/1/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "123",
             "bookmaker_outcome_id": "home",
-            "price": 1.699,
+            "price": 3.53,
             "active": true,
-            "limit": 10729,
+            "limit": 3775,
             "name": null
           },
           {
             "outcome_id": "124",
             "bookmaker_outcome_id": "away",
-            "price": 2.27,
+            "price": 1.332,
             "active": true,
-            "limit": 7500,
-            "name": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "oddspapi_v4_github_actions",
-    "bookmaker": "pinnacle",
-    "fixture_id": "id1200255972320490",
-    "tournament_id": 2559,
-    "sport_id": 12,
-    "start_time": "2026-07-08T12:30:00.000Z",
-    "has_odds": true,
-    "status": "moneyline_found",
-    "markets": [
-      {
-        "market_id": "121",
-        "bookmaker_market_id": "line/33/3820/1632366599/3657249029/0/moneyline",
-        "market_active": true,
-        "outcomes": [
-          {
-            "outcome_id": "121",
-            "bookmaker_outcome_id": "home",
-            "price": 1.395,
-            "active": true,
-            "limit": 25316,
-            "name": null
-          },
-          {
-            "outcome_id": "122",
-            "bookmaker_outcome_id": "away",
-            "price": 3.25,
-            "active": true,
-            "limit": 10000,
-            "name": null
-          }
-        ]
-      },
-      {
-        "market_id": "123",
-        "bookmaker_market_id": "line/33/3820/1632366599/3657249030/1/moneyline",
-        "market_active": true,
-        "outcomes": [
-          {
-            "outcome_id": "123",
-            "bookmaker_outcome_id": "home",
-            "price": 1.523,
-            "active": true,
-            "limit": 14340,
-            "name": null
-          },
-          {
-            "outcome_id": "124",
-            "bookmaker_outcome_id": "away",
-            "price": 2.69,
-            "active": true,
-            "limit": 7500,
-            "name": null
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "oddspapi_v4_github_actions",
-    "bookmaker": "pinnacle",
-    "fixture_id": "id1200255972320486",
-    "tournament_id": 2559,
-    "sport_id": 12,
-    "start_time": "2026-07-09T12:30:00.000Z",
-    "has_odds": true,
-    "status": "moneyline_found",
-    "markets": [
-      {
-        "market_id": "121",
-        "bookmaker_market_id": "line/33/3825/1632388627/3657553229/0/moneyline",
-        "market_active": true,
-        "outcomes": [
-          {
-            "outcome_id": "121",
-            "bookmaker_outcome_id": "home",
-            "price": 1.917,
-            "active": true,
-            "limit": 4743,
-            "name": null
-          },
-          {
-            "outcome_id": "122",
-            "bookmaker_outcome_id": "away",
-            "price": 1.97,
-            "active": true,
-            "limit": 4484,
-            "name": null
-          }
-        ]
-      },
-      {
-        "market_id": "123",
-        "bookmaker_market_id": "line/33/3825/1632388627/3657553231/1/moneyline",
-        "market_active": true,
-        "outcomes": [
-          {
-            "outcome_id": "123",
-            "bookmaker_outcome_id": "home",
-            "price": 1.925,
-            "active": true,
-            "limit": 3527,
-            "name": null
-          },
-          {
-            "outcome_id": "124",
-            "bookmaker_outcome_id": "away",
-            "price": 1.943,
-            "active": true,
-            "limit": 3459,
+            "limit": 11370,
             "name": null
           }
         ]

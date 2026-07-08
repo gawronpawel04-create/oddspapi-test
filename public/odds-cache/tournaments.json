@@ -71,7 +71,7 @@
   },
   {
     "tournamentId": 1976,
-    "tournamentSlug": "britannia-open",
+    "tournamentSlug": "britannia-open-1976",
     "tournamentName": "Britannia Open",
     "categorySlug": "virtual-tennis",
     "categoryName": "Virtual Tennis",
@@ -231,7 +231,7 @@
   },
   {
     "tournamentId": 2553,
-    "tournamentSlug": "wimbledon",
+    "tournamentSlug": "wimbledon-2553",
     "tournamentName": "Wimbledon",
     "categorySlug": "atp",
     "categoryName": "ATP",
@@ -245,9 +245,9 @@
     "tournamentName": "Wimbledon Men Singles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 5,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 2557,
@@ -255,7 +255,7 @@
     "tournamentName": "Wimbledon Men Doubles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 5,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -265,7 +265,7 @@
     "tournamentName": "Wimbledon Women Singles",
     "categorySlug": "wta",
     "categoryName": "WTA",
-    "futureFixtures": 5,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -275,7 +275,7 @@
     "tournamentName": "Wimbledon Women Doubles",
     "categorySlug": "wta",
     "categoryName": "WTA",
-    "futureFixtures": 7,
+    "futureFixtures": 5,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -1615,7 +1615,7 @@
     "tournamentName": "ATP Bastad, Sweden Men Singles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -1625,7 +1625,7 @@
     "tournamentName": "ATP Bastad, Sweden Men Doubles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -1845,7 +1845,7 @@
     "tournamentName": "ATP Gstaad, Switzerland Men Singles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -1855,7 +1855,7 @@
     "tournamentName": "ATP Gstaad, Switzerland Men Doubles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -1875,7 +1875,7 @@
     "tournamentName": "ATP Umag, Croatia Men Singles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -1885,7 +1885,7 @@
     "tournamentName": "ATP Umag, Croatia Men Doubles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -3805,7 +3805,7 @@
     "tournamentName": "ATP Challenger Braunschweig, Germany Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 11,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -3815,7 +3815,7 @@
     "tournamentName": "ATP Challenger Braunschweig, Germany Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -3845,7 +3845,7 @@
     "tournamentName": "ATP Challenger Cordenons, Italy Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -3855,7 +3855,7 @@
     "tournamentName": "ATP Challenger Cordenons, Italy Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -3875,7 +3875,7 @@
     "tournamentName": "ATP Challenger Granby, Canada Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -3885,7 +3885,7 @@
     "tournamentName": "ATP Challenger Granby, Canada Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -4095,7 +4095,7 @@
     "tournamentName": "ATP Challenger Pozoblanco, Spain Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -4105,7 +4105,7 @@
     "tournamentName": "ATP Challenger Pozoblanco, Spain Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -6285,9 +6285,9 @@
     "tournamentName": "ATP Challenger Bogota, Colombia Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
-    "upcomingFixtures": 5,
-    "liveFixtures": 1
+    "futureFixtures": 11,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
   },
   {
     "tournamentId": 4509,
@@ -6295,9 +6295,9 @@
     "tournamentName": "ATP Challenger Bogota, Colombia Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 13,
-    "upcomingFixtures": 1,
-    "liveFixtures": 0
+    "futureFixtures": 7,
+    "upcomingFixtures": 2,
+    "liveFixtures": 3
   },
   {
     "tournamentId": 4511,
@@ -8631,7 +8631,7 @@
   },
   {
     "tournamentId": 5759,
-    "tournamentSlug": "itf-antalya",
+    "tournamentSlug": "itf-antalya-5759",
     "tournamentName": "ITF Antalya",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -19265,7 +19265,7 @@
     "tournamentName": "Juniors Wimbledon, London, GB Women Singles",
     "categorySlug": "juniors",
     "categoryName": "Juniors",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19275,7 +19275,7 @@
     "tournamentName": "Legends Wimbledon, London, GB Men Doubles",
     "categorySlug": "legends",
     "categoryName": "Legends",
-    "futureFixtures": 2,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19295,7 +19295,7 @@
     "tournamentName": "Wheelchairs Wimbledon, London, GB Men Singles",
     "categorySlug": "wheelchairs",
     "categoryName": "Wheelchairs",
-    "futureFixtures": 14,
+    "futureFixtures": 10,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19305,7 +19305,7 @@
     "tournamentName": "Wheelchairs Wimbledon, London, GB Men Doubles",
     "categorySlug": "wheelchairs",
     "categoryName": "Wheelchairs",
-    "futureFixtures": 10,
+    "futureFixtures": 6,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19325,7 +19325,7 @@
     "tournamentName": "Wheelchairs Wimbledon, London, GB Women Doubles",
     "categorySlug": "wheelchairs",
     "categoryName": "Wheelchairs",
-    "futureFixtures": 7,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19335,7 +19335,7 @@
     "tournamentName": "Juniors Wimbledon, London, GB Men Singles",
     "categorySlug": "juniors",
     "categoryName": "Juniors",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19345,7 +19345,7 @@
     "tournamentName": "Juniors Wimbledon, London, GB Men Doubles",
     "categorySlug": "juniors",
     "categoryName": "Juniors",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -19355,7 +19355,7 @@
     "tournamentName": "Juniors Wimbledon, London, GB Women Doubles",
     "categorySlug": "juniors",
     "categoryName": "Juniors",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -33831,7 +33831,7 @@
   },
   {
     "tournamentId": 21736,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-21736",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40251,7 +40251,7 @@
   },
   {
     "tournamentId": 23459,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23459",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40261,7 +40261,7 @@
   },
   {
     "tournamentId": 23461,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23461",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40271,7 +40271,7 @@
   },
   {
     "tournamentId": 23463,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23463",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40281,7 +40281,7 @@
   },
   {
     "tournamentId": 23465,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23465",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40291,7 +40291,7 @@
   },
   {
     "tournamentId": 23467,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23467",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40301,7 +40301,7 @@
   },
   {
     "tournamentId": 23469,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23469",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40761,7 +40761,7 @@
   },
   {
     "tournamentId": 23757,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23757",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40771,7 +40771,7 @@
   },
   {
     "tournamentId": 23759,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23759",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40781,7 +40781,7 @@
   },
   {
     "tournamentId": 23761,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23761",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40791,7 +40791,7 @@
   },
   {
     "tournamentId": 23763,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23763",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40801,7 +40801,7 @@
   },
   {
     "tournamentId": 23765,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23765",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40811,7 +40811,7 @@
   },
   {
     "tournamentId": 23767,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23767",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -40821,7 +40821,7 @@
   },
   {
     "tournamentId": 23769,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23769",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -40831,7 +40831,7 @@
   },
   {
     "tournamentId": 23771,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23771",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -40851,7 +40851,7 @@
   },
   {
     "tournamentId": 23779,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23779",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -40861,7 +40861,7 @@
   },
   {
     "tournamentId": 23781,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23781",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -40871,7 +40871,7 @@
   },
   {
     "tournamentId": 23783,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23783",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -40971,7 +40971,7 @@
   },
   {
     "tournamentId": 23947,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23947",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40981,7 +40981,7 @@
   },
   {
     "tournamentId": 23949,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23949",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -40991,7 +40991,7 @@
   },
   {
     "tournamentId": 23951,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-23951",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41191,7 +41191,7 @@
   },
   {
     "tournamentId": 24139,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24139",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41201,7 +41201,7 @@
   },
   {
     "tournamentId": 24141,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24141",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41211,7 +41211,7 @@
   },
   {
     "tournamentId": 24143,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24143",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41221,7 +41221,7 @@
   },
   {
     "tournamentId": 24145,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24145",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41231,7 +41231,7 @@
   },
   {
     "tournamentId": 24147,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24147",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41241,7 +41241,7 @@
   },
   {
     "tournamentId": 24149,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24149",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41251,7 +41251,7 @@
   },
   {
     "tournamentId": 24151,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24151",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41261,7 +41261,7 @@
   },
   {
     "tournamentId": 24153,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24153",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41271,7 +41271,7 @@
   },
   {
     "tournamentId": 24155,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24155",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41321,7 +41321,7 @@
   },
   {
     "tournamentId": 24165,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24165",
     "tournamentName": "NIU!",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41331,7 +41331,7 @@
   },
   {
     "tournamentId": 24167,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24167",
     "tournamentName": "NIU!",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41341,7 +41341,7 @@
   },
   {
     "tournamentId": 24169,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-24169",
     "tournamentName": "NIU!",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -41401,8 +41401,8 @@
   },
   {
     "tournamentId": 24239,
-    "tournamentSlug": "atp-challenger-alicante-spain-men-singles",
-    "tournamentName": "ATP Challenger Alicante, Spain Men Singles",
+    "tournamentSlug": "atp-challenger-villena-spain-men-singles",
+    "tournamentName": "ATP Challenger Villena, Spain Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
     "futureFixtures": 0,
@@ -41411,8 +41411,8 @@
   },
   {
     "tournamentId": 24241,
-    "tournamentSlug": "atp-challenger-alicante-spain-men-doubles",
-    "tournamentName": "ATP Challenger Alicante, Spain Men Doubles",
+    "tournamentSlug": "atp-challenger-villena-spain-men-doubles",
+    "tournamentName": "ATP Challenger Villena, Spain Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
     "futureFixtures": 0,
@@ -44861,7 +44861,7 @@
   },
   {
     "tournamentId": 26736,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-26736",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -46435,7 +46435,7 @@
     "tournamentName": "WTA 125K Bastad, Sweden Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -46445,7 +46445,7 @@
     "tournamentName": "WTA 125K Bastad, Sweden Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 8,
+    "futureFixtures": 4,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -51711,7 +51711,7 @@
   },
   {
     "tournamentId": 31311,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31311",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51721,7 +51721,7 @@
   },
   {
     "tournamentId": 31313,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31313",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51731,7 +51731,7 @@
   },
   {
     "tournamentId": 31315,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31315",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51751,7 +51751,7 @@
   },
   {
     "tournamentId": 31319,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31319",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51761,7 +51761,7 @@
   },
   {
     "tournamentId": 31321,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31321",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51781,7 +51781,7 @@
   },
   {
     "tournamentId": 31329,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31329",
     "tournamentName": "NIU",
     "categorySlug": "atp",
     "categoryName": "ATP",
@@ -51791,7 +51791,7 @@
   },
   {
     "tournamentId": 31331,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31331",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51801,7 +51801,7 @@
   },
   {
     "tournamentId": 31333,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31333",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -51871,7 +51871,7 @@
   },
   {
     "tournamentId": 31357,
-    "tournamentSlug": "adelaide-australia",
+    "tournamentSlug": "adelaide-australia-31357",
     "tournamentName": "Adelaide, Australia",
     "categorySlug": "atp",
     "categoryName": "ATP",
@@ -52111,7 +52111,7 @@
   },
   {
     "tournamentId": 31483,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31483",
     "tournamentName": "NIU",
     "categorySlug": "atp",
     "categoryName": "ATP",
@@ -52131,7 +52131,7 @@
   },
   {
     "tournamentId": 31493,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31493",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -52141,7 +52141,7 @@
   },
   {
     "tournamentId": 31495,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-31495",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -52861,7 +52861,7 @@
   },
   {
     "tournamentId": 32475,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-32475",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -52901,7 +52901,7 @@
   },
   {
     "tournamentId": 32515,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-32515",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -52961,7 +52961,7 @@
   },
   {
     "tournamentId": 32627,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-32627",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -52991,7 +52991,7 @@
   },
   {
     "tournamentId": 32975,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-32975",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -53031,7 +53031,7 @@
   },
   {
     "tournamentId": 32983,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-32983",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -53041,7 +53041,7 @@
   },
   {
     "tournamentId": 32985,
-    "tournamentSlug": "atp-challenger-szczecin-poland",
+    "tournamentSlug": "atp-challenger-szczecin-poland-32985",
     "tournamentName": "ATP Challenger Szczecin, Poland",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -53085,7 +53085,7 @@
     "tournamentName": "2020 Trieste, Italy Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 13,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -53095,9 +53095,9 @@
     "tournamentName": "ATP Challenger Trieste, Italy Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 11,
     "upcomingFixtures": 0,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 33053,
@@ -53115,7 +53115,7 @@
     "tournamentName": "ATP Challenger Iasi, Romania Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 14,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 1
   },
@@ -53125,9 +53125,9 @@
     "tournamentName": "ATP Challenger Iasi, Romania Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 11,
     "upcomingFixtures": 0,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 33139,
@@ -53141,7 +53141,7 @@
   },
   {
     "tournamentId": 33141,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-33141",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -55541,7 +55541,7 @@
   },
   {
     "tournamentId": 35528,
-    "tournamentSlug": "atp-challenger-brasilia-brazil",
+    "tournamentSlug": "atp-challenger-brasilia-brazil-35528",
     "tournamentName": "ATP Challenger Brasilia, Brazil",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -56071,7 +56071,7 @@
   },
   {
     "tournamentId": 35951,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-35951",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -56081,7 +56081,7 @@
   },
   {
     "tournamentId": 35953,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-35953",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -56091,7 +56091,7 @@
   },
   {
     "tournamentId": 35955,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-35955",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -56495,7 +56495,7 @@
     "tournamentName": "WTA 125K Contrexeville, France Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 3,
+    "futureFixtures": 5,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -56505,7 +56505,7 @@
     "tournamentName": "WTA 125K Contrexeville, France Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 15,
+    "futureFixtures": 11,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -56981,7 +56981,7 @@
   },
   {
     "tournamentId": 36753,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-36753",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -56991,7 +56991,7 @@
   },
   {
     "tournamentId": 36755,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-36755",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -57001,7 +57001,7 @@
   },
   {
     "tournamentId": 36757,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-36757",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -58541,7 +58541,7 @@
   },
   {
     "tournamentId": 37905,
-    "tournamentSlug": "atp-challenger-knoxville-usa",
+    "tournamentSlug": "atp-challenger-knoxville-usa-37905",
     "tournamentName": "ATP Challenger Knoxville,USA",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -58551,7 +58551,7 @@
   },
   {
     "tournamentId": 37907,
-    "tournamentSlug": "atp-challenger-knoxville-usa-men-doubles",
+    "tournamentSlug": "atp-challenger-knoxville-usa-men-doubles-37907",
     "tournamentName": "ATP Challenger Knoxville,USA Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -58561,7 +58561,7 @@
   },
   {
     "tournamentId": 37909,
-    "tournamentSlug": "atp-challenger-knoxville-usa-men-singles",
+    "tournamentSlug": "atp-challenger-knoxville-usa-men-singles-37909",
     "tournamentName": "ATP Challenger Knoxville,USA Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -59221,7 +59221,7 @@
   },
   {
     "tournamentId": 38233,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-38233",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -59231,7 +59231,7 @@
   },
   {
     "tournamentId": 38235,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-38235",
     "tournamentName": "NIU",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -60311,8 +60311,8 @@
   },
   {
     "tournamentId": 38757,
-    "tournamentSlug": "world-tennis-league",
-    "tournamentName": "World Tennis League",
+    "tournamentSlug": "world-tennis-league-men-singles",
+    "tournamentName": "World Tennis League Men Singles",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
     "futureFixtures": 0,
@@ -60751,7 +60751,7 @@
   },
   {
     "tournamentId": 39195,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-39195",
     "tournamentName": "NIU",
     "categorySlug": "simulated-reality",
     "categoryName": "Simulated Reality",
@@ -60871,7 +60871,7 @@
   },
   {
     "tournamentId": 39373,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-39373",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -61861,7 +61861,7 @@
   },
   {
     "tournamentId": 40039,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-40039",
     "tournamentName": "NIU",
     "categorySlug": "atp",
     "categoryName": "ATP",
@@ -62811,7 +62811,7 @@
   },
   {
     "tournamentId": 40765,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-40765",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -62821,7 +62821,7 @@
   },
   {
     "tournamentId": 40767,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-40767",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -62831,7 +62831,7 @@
   },
   {
     "tournamentId": 40769,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-40769",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -63671,7 +63671,7 @@
   },
   {
     "tournamentId": 41107,
-    "tournamentSlug": "atp-challenger-maspalomas-spain",
+    "tournamentSlug": "atp-challenger-maspalomas-spain-41107",
     "tournamentName": "ATP Challenger Maspalomas, Spain",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -63681,7 +63681,7 @@
   },
   {
     "tournamentId": 41109,
-    "tournamentSlug": "atp-challenger-maspalomas-spain-men-singles",
+    "tournamentSlug": "atp-challenger-maspalomas-spain-men-singles-41109",
     "tournamentName": "ATP Challenger Maspalomas, Spain Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -63691,7 +63691,7 @@
   },
   {
     "tournamentId": 41111,
-    "tournamentSlug": "atp-challenger-maspalomas-spain-men-doubles",
+    "tournamentSlug": "atp-challenger-maspalomas-spain-men-doubles-41111",
     "tournamentName": "ATP Challenger Maspalomas, Spain Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -64211,7 +64211,7 @@
   },
   {
     "tournamentId": 41450,
-    "tournamentSlug": "itf-spain-39a-women-singles",
+    "tournamentSlug": "itf-spain-39a-women-singles-41450",
     "tournamentName": "ITF Spain 39A, Women Singles",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -65751,7 +65751,7 @@
   },
   {
     "tournamentId": 42163,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-42163",
     "tournamentName": "NIU",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
@@ -65761,7 +65761,7 @@
   },
   {
     "tournamentId": 42165,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-42165",
     "tournamentName": "NIU",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
@@ -65801,7 +65801,7 @@
   },
   {
     "tournamentId": 42173,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-42173",
     "tournamentName": "NIU",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
@@ -65811,7 +65811,7 @@
   },
   {
     "tournamentId": 42175,
-    "tournamentSlug": "wta-125k-paris-france-women-doubles",
+    "tournamentSlug": "wta-125k-paris-france-women-doubles-42175",
     "tournamentName": "WTA 125K Paris, France Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
@@ -65821,7 +65821,7 @@
   },
   {
     "tournamentId": 42177,
-    "tournamentSlug": "wta-125k-paris-france-women-singles",
+    "tournamentSlug": "wta-125k-paris-france-women-singles-42177",
     "tournamentName": "WTA 125K Paris, France Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
@@ -66001,7 +66001,7 @@
   },
   {
     "tournamentId": 42231,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-42231",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -66851,7 +66851,7 @@
   },
   {
     "tournamentId": 42971,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-42971",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -67221,7 +67221,7 @@
   },
   {
     "tournamentId": 43121,
-    "tournamentSlug": "wta-sydney-australia",
+    "tournamentSlug": "wta-sydney-australia-43121",
     "tournamentName": "WTA Sydney, Australia",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -67231,7 +67231,7 @@
   },
   {
     "tournamentId": 43123,
-    "tournamentSlug": "wta-brisbane-australia",
+    "tournamentSlug": "wta-brisbane-australia-43123",
     "tournamentName": "WTA Brisbane, Australia",
     "categorySlug": "wta",
     "categoryName": "WTA",
@@ -67645,7 +67645,7 @@
     "tournamentName": "ATP Challenger Lincoln (NE), USA Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -67655,7 +67655,7 @@
     "tournamentName": "ATP Challenger Lincoln (NE), USA Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -67815,7 +67815,7 @@
     "tournamentName": "WTA Iasi, Romania Women Singles",
     "categorySlug": "wta",
     "categoryName": "WTA",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -67825,7 +67825,7 @@
     "tournamentName": "WTA Iasi, Romania Women Doubles",
     "categorySlug": "wta",
     "categoryName": "WTA",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -68661,7 +68661,7 @@
   },
   {
     "tournamentId": 43697,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-43697",
     "tournamentName": "NIU",
     "categorySlug": "simulated-reality",
     "categoryName": "Simulated Reality",
@@ -69431,7 +69431,7 @@
   },
   {
     "tournamentId": 44015,
-    "tournamentSlug": "itf-serbia-24a-women",
+    "tournamentSlug": "itf-serbia-24a-women-44015",
     "tournamentName": "ITF Serbia 24A, Women",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -69441,7 +69441,7 @@
   },
   {
     "tournamentId": 44017,
-    "tournamentSlug": "itf-serbia-24a-women-singles",
+    "tournamentSlug": "itf-serbia-24a-women-singles-44017",
     "tournamentName": "ITF Serbia 24A, Women Singles",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -69451,7 +69451,7 @@
   },
   {
     "tournamentId": 44019,
-    "tournamentSlug": "itf-serbia-24a-women-doubles",
+    "tournamentSlug": "itf-serbia-24a-women-doubles-44019",
     "tournamentName": "ITF Serbia 24A, Women Doubles",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -70611,7 +70611,7 @@
   },
   {
     "tournamentId": 44613,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-44613",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -70651,7 +70651,7 @@
   },
   {
     "tournamentId": 44679,
-    "tournamentSlug": "itf-turkiye-f39-men",
+    "tournamentSlug": "itf-turkiye-f39-men-44679",
     "tournamentName": "ITF Turkiye F39 Men",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -70661,7 +70661,7 @@
   },
   {
     "tournamentId": 44681,
-    "tournamentSlug": "itf-turkiye-f39-men-doubles",
+    "tournamentSlug": "itf-turkiye-f39-men-doubles-44681",
     "tournamentName": "ITF Turkiye F39, Men Doubles",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -70671,7 +70671,7 @@
   },
   {
     "tournamentId": 44683,
-    "tournamentSlug": "itf-turkiye-f39-men-singles",
+    "tournamentSlug": "itf-turkiye-f39-men-singles-44683",
     "tournamentName": "ITF Turkiye F39, Men Singles",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -72121,7 +72121,7 @@
   },
   {
     "tournamentId": 45275,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45275",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -72131,7 +72131,7 @@
   },
   {
     "tournamentId": 45277,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45277",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -72141,7 +72141,7 @@
   },
   {
     "tournamentId": 45279,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45279",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -72271,7 +72271,7 @@
   },
   {
     "tournamentId": 45305,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45305",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -72281,7 +72281,7 @@
   },
   {
     "tournamentId": 45307,
-    "tournamentSlug": "itf-turkiye-32a-women-singles",
+    "tournamentSlug": "itf-turkiye-32a-women-singles-45307",
     "tournamentName": "ITF Turkiye 32A, Women Singles",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -72291,7 +72291,7 @@
   },
   {
     "tournamentId": 45309,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45309",
     "tournamentName": "NIU",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
@@ -72301,7 +72301,7 @@
   },
   {
     "tournamentId": 45313,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45313",
     "tournamentName": "NIU",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
@@ -72311,7 +72311,7 @@
   },
   {
     "tournamentId": 45319,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45319",
     "tournamentName": "NIU",
     "categorySlug": "exhibition",
     "categoryName": "Exhibition",
@@ -72735,9 +72735,9 @@
     "tournamentName": "Winston-Salem M01",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
-    "futureFixtures": 16,
+    "futureFixtures": 8,
     "upcomingFixtures": 0,
-    "liveFixtures": 2
+    "liveFixtures": 0
   },
   {
     "tournamentId": 45473,
@@ -72775,7 +72775,7 @@
     "tournamentName": "Winston-Salem W01",
     "categorySlug": "utr-women",
     "categoryName": "UTR Women",
-    "futureFixtures": 16,
+    "futureFixtures": 8,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -72871,7 +72871,7 @@
   },
   {
     "tournamentId": 45503,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45503",
     "tournamentName": "NIU",
     "categorySlug": "utr-women",
     "categoryName": "UTR Women",
@@ -73631,7 +73631,7 @@
   },
   {
     "tournamentId": 45995,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45995",
     "tournamentName": "NIU",
     "categorySlug": "simulated-reality",
     "categoryName": "Simulated Reality",
@@ -73641,7 +73641,7 @@
   },
   {
     "tournamentId": 45997,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-45997",
     "tournamentName": "NIU",
     "categorySlug": "simulated-reality",
     "categoryName": "Simulated Reality",
@@ -73651,7 +73651,7 @@
   },
   {
     "tournamentId": 45999,
-    "tournamentSlug": "srl-spring-invitational-gisborne-nzl-women",
+    "tournamentSlug": "srl-spring-invitational-gisborne-nzl-women-45999",
     "tournamentName": "SRL Spring Invitational Gisborne, NZL, Women",
     "categorySlug": "simulated-reality-women",
     "categoryName": "Simulated Reality Women",
@@ -74485,7 +74485,7 @@
     "tournamentName": "WTA 125K Rome, Italy Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -74495,7 +74495,7 @@
     "tournamentName": "WTA 125K Rome, Italy Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 0,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -74775,9 +74775,9 @@
     "tournamentName": "ATP Challenger Newport, USA Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 24,
-    "upcomingFixtures": 4,
-    "liveFixtures": 2
+    "futureFixtures": 15,
+    "upcomingFixtures": 6,
+    "liveFixtures": 3
   },
   {
     "tournamentId": 46491,
@@ -74785,7 +74785,7 @@
     "tournamentName": "ATP Challenger Newport, USA Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 14,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -74805,7 +74805,7 @@
     "tournamentName": "ATP Challenger Bunschoten, Netherlands Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -74815,7 +74815,7 @@
     "tournamentName": "ATP Challenger Bunschoten, Netherlands Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -75015,9 +75015,9 @@
     "tournamentName": "WTA 125K Newport, USA Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 20,
-    "upcomingFixtures": 11,
-    "liveFixtures": 0
+    "futureFixtures": 15,
+    "upcomingFixtures": 5,
+    "liveFixtures": 3
   },
   {
     "tournamentId": 46667,
@@ -75085,7 +75085,7 @@
     "tournamentName": "ATP Challenger Nottingham 3, Great Britain Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 11,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -75095,7 +75095,7 @@
     "tournamentName": "ATP Challenger Nottingham 3, Great Britain Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 14,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -77361,7 +77361,7 @@
   },
   {
     "tournamentId": 47904,
-    "tournamentSlug": "utr-ptt-blacksburg-men-01",
+    "tournamentSlug": "utr-ptt-blacksburg-men-01-47904",
     "tournamentName": "UTR PTT Blacksburg Men 01",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
@@ -79401,8 +79401,8 @@
   },
   {
     "tournamentId": 49274,
-    "tournamentSlug": "utr-ptt-newport-beach-women-15",
-    "tournamentName": "UTR PTT Newport Beach Women 15",
+    "tournamentSlug": "utr-ptt-newport-beach-women-16",
+    "tournamentName": "UTR PTT Newport Beach Women 16",
     "categorySlug": "utr-women",
     "categoryName": "UTR Women",
     "futureFixtures": 0,
@@ -80441,7 +80441,7 @@
   },
   {
     "tournamentId": 49984,
-    "tournamentSlug": "atp-challenger-cuernavaca-mexico",
+    "tournamentSlug": "atp-challenger-cuernavaca-mexico-49984",
     "tournamentName": "ATP Challenger Cuernavaca, Mexico",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -80451,7 +80451,7 @@
   },
   {
     "tournamentId": 49986,
-    "tournamentSlug": "atp-challenger-cuernavaca-mexico-men-doubles",
+    "tournamentSlug": "atp-challenger-cuernavaca-mexico-men-doubles-49986",
     "tournamentName": "ATP Challenger Cuernavaca, Mexico Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -80461,7 +80461,7 @@
   },
   {
     "tournamentId": 49988,
-    "tournamentSlug": "atp-challenger-cuernavaca-mexico-men-singles",
+    "tournamentSlug": "atp-challenger-cuernavaca-mexico-men-singles-49988",
     "tournamentName": "ATP Challenger Cuernavaca, Mexico Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -80931,7 +80931,7 @@
   },
   {
     "tournamentId": 50184,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-50184",
     "tournamentName": "NIU",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
@@ -80991,7 +80991,7 @@
   },
   {
     "tournamentId": 50224,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-50224",
     "tournamentName": "NIU",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
@@ -81011,7 +81011,7 @@
   },
   {
     "tournamentId": 50228,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-50228",
     "tournamentName": "NIU",
     "categorySlug": "utr-women",
     "categoryName": "UTR Women",
@@ -81371,7 +81371,7 @@
   },
   {
     "tournamentId": 50516,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-50516",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -81381,7 +81381,7 @@
   },
   {
     "tournamentId": 50518,
-    "tournamentSlug": "niu",
+    "tournamentSlug": "niu-50518",
     "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
@@ -81525,7 +81525,7 @@
     "tournamentName": "ATP Challenger Huy, Belgium Men Singles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 11,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -81535,7 +81535,7 @@
     "tournamentName": "ATP Challenger Huy, Belgium Men Doubles",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
-    "futureFixtures": 15,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -82051,8 +82051,8 @@
   },
   {
     "tournamentId": 51128,
-    "tournamentSlug": "utr-ptt-arnhem-men-02",
-    "tournamentName": "UTR PTT Arnhem Men 02",
+    "tournamentSlug": "utr-ptt-arnhem-men-03",
+    "tournamentName": "UTR PTT Arnhem Men 03",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
     "futureFixtures": 0,
@@ -82061,8 +82061,8 @@
   },
   {
     "tournamentId": 51142,
-    "tournamentSlug": "utr-ptt-arnhem-women-02",
-    "tournamentName": "UTR PTT Arnhem Women 02",
+    "tournamentSlug": "utr-ptt-arnhem-women-03",
+    "tournamentName": "UTR PTT Arnhem Women 03",
     "categorySlug": "utr-women",
     "categoryName": "UTR Women",
     "futureFixtures": 0,
@@ -82305,7 +82305,7 @@
     "tournamentName": "WTA Athens, Greece Women Singles",
     "categorySlug": "wta",
     "categoryName": "WTA",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -82365,7 +82365,7 @@
     "tournamentName": "WTA 125K Istanbul 2, Turkiye Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -82375,7 +82375,7 @@
     "tournamentName": "WTA 125K Istanbul 2, Turkiye Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 0,
+    "futureFixtures": 7,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -82395,7 +82395,7 @@
     "tournamentName": "WTA 125K Kitzbuhel, Austria Women Singles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 0,
+    "futureFixtures": 15,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -82405,7 +82405,7 @@
     "tournamentName": "WTA 125K Kitzbuhel, Austria Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
-    "futureFixtures": 0,
+    "futureFixtures": 3,
     "upcomingFixtures": 0,
     "liveFixtures": 0
   },
@@ -83415,9 +83415,9 @@
     "tournamentName": "UTR PTT Phan Thiet Men 03",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
-    "futureFixtures": 2,
+    "futureFixtures": 0,
     "upcomingFixtures": 6,
-    "liveFixtures": 0
+    "liveFixtures": 2
   },
   {
     "tournamentId": 52154,
@@ -83425,9 +83425,9 @@
     "tournamentName": "UTR PTT Ljubljana Men 01",
     "categorySlug": "utr-men",
     "categoryName": "UTR Men",
-    "futureFixtures": 24,
+    "futureFixtures": 16,
     "upcomingFixtures": 0,
-    "liveFixtures": 0
+    "liveFixtures": 2
   },
   {
     "tournamentId": 52164,
@@ -83435,9 +83435,9 @@
     "tournamentName": "UTR PTT Ljubljana Women 01",
     "categorySlug": "utr-women",
     "categoryName": "UTR Women",
-    "futureFixtures": 24,
+    "futureFixtures": 16,
     "upcomingFixtures": 0,
-    "liveFixtures": 0
+    "liveFixtures": 1
   },
   {
     "tournamentId": 52230,
@@ -83545,8 +83545,8 @@
     "tournamentName": "SRL Summer Invitational Dunedin, NZL",
     "categorySlug": "simulated-reality",
     "categoryName": "Simulated Reality",
-    "futureFixtures": 9,
-    "upcomingFixtures": 6,
+    "futureFixtures": 4,
+    "upcomingFixtures": 3,
     "liveFixtures": 0
   },
   {
@@ -83555,8 +83555,8 @@
     "tournamentName": "SRL Summer Invitational Dunedin, NZL, Women",
     "categorySlug": "simulated-reality-women",
     "categoryName": "Simulated Reality Women",
-    "futureFixtures": 9,
-    "upcomingFixtures": 6,
+    "futureFixtures": 4,
+    "upcomingFixtures": 3,
     "liveFixtures": 0
   },
   {
@@ -83785,8 +83785,8 @@
     "tournamentName": "Aschaffenburg",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 9,
-    "upcomingFixtures": 6,
+    "futureFixtures": 1,
+    "upcomingFixtures": 10,
     "liveFixtures": 0
   },
   {
@@ -83825,8 +83825,8 @@
     "tournamentName": "Astana",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 8,
-    "upcomingFixtures": 5,
+    "futureFixtures": 4,
+    "upcomingFixtures": 11,
     "liveFixtures": 0
   },
   {
@@ -84675,8 +84675,8 @@
     "tournamentName": "Luan",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 8,
-    "upcomingFixtures": 7,
+    "futureFixtures": 0,
+    "upcomingFixtures": 17,
     "liveFixtures": 0
   },
   {
@@ -84975,8 +84975,8 @@
     "tournamentName": "Monastir",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 12,
-    "upcomingFixtures": 3,
+    "futureFixtures": 0,
+    "upcomingFixtures": 12,
     "liveFixtures": 121
   },
   {
@@ -85185,8 +85185,8 @@
     "tournamentName": "Corroios-Seixal",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 9,
-    "upcomingFixtures": 7,
+    "futureFixtures": 1,
+    "upcomingFixtures": 9,
     "liveFixtures": 0
   },
   {
@@ -85765,8 +85765,8 @@
     "tournamentName": "Bucharest",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 2,
-    "upcomingFixtures": 4,
+    "futureFixtures": 0,
+    "upcomingFixtures": 12,
     "liveFixtures": 1
   },
   {
@@ -86915,8 +86915,8 @@
     "tournamentName": "The Hague",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 12,
-    "upcomingFixtures": 4,
+    "futureFixtures": 0,
+    "upcomingFixtures": 12,
     "liveFixtures": 0
   },
   {
@@ -86965,8 +86965,8 @@
     "tournamentName": "The Hague",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 12,
-    "upcomingFixtures": 4,
+    "futureFixtures": 1,
+    "upcomingFixtures": 12,
     "liveFixtures": 0
   },
   {
@@ -87175,8 +87175,8 @@
     "tournamentName": "Don Benito",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 4,
-    "upcomingFixtures": 4,
+    "futureFixtures": 0,
+    "upcomingFixtures": 11,
     "liveFixtures": 0
   },
   {
@@ -87606,7 +87606,7 @@
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
     "futureFixtures": 0,
-    "upcomingFixtures": 4,
+    "upcomingFixtures": 12,
     "liveFixtures": 0
   },
   {
@@ -89156,7 +89156,7 @@
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
     "futureFixtures": 0,
-    "upcomingFixtures": 7,
+    "upcomingFixtures": 11,
     "liveFixtures": 0
   },
   {
@@ -89375,8 +89375,8 @@
     "tournamentName": "Columbus",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 3,
-    "upcomingFixtures": 3,
+    "futureFixtures": 0,
+    "upcomingFixtures": 13,
     "liveFixtures": 0
   },
   {
@@ -89415,8 +89415,8 @@
     "tournamentName": "Dallas",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 4,
-    "upcomingFixtures": 4,
+    "futureFixtures": 1,
+    "upcomingFixtures": 12,
     "liveFixtures": 0
   },
   {
@@ -89495,8 +89495,8 @@
     "tournamentName": "Kassel",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 11,
-    "upcomingFixtures": 3,
+    "futureFixtures": 1,
+    "upcomingFixtures": 12,
     "liveFixtures": 0
   },
   {
@@ -90895,8 +90895,8 @@
     "tournamentName": "Kursumlijska Banja",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 10,
-    "upcomingFixtures": 2,
+    "futureFixtures": 7,
+    "upcomingFixtures": 7,
     "liveFixtures": 100
   },
   {
@@ -90935,8 +90935,8 @@
     "tournamentName": "Kursumlijska Banja",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 12,
-    "upcomingFixtures": 3,
+    "futureFixtures": 0,
+    "upcomingFixtures": 13,
     "liveFixtures": 111
   },
   {
@@ -91486,7 +91486,7 @@
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
     "futureFixtures": 0,
-    "upcomingFixtures": 17,
+    "upcomingFixtures": 8,
     "liveFixtures": 0
   },
   {
@@ -91495,8 +91495,8 @@
     "tournamentName": "Laval",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 8,
-    "upcomingFixtures": 8,
+    "futureFixtures": 2,
+    "upcomingFixtures": 9,
     "liveFixtures": 0
   },
   {
@@ -91916,7 +91916,7 @@
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
     "futureFixtures": 0,
-    "upcomingFixtures": 12,
+    "upcomingFixtures": 8,
     "liveFixtures": 0
   },
   {
@@ -92765,8 +92765,8 @@
     "tournamentName": "Rio Claro",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 7,
-    "upcomingFixtures": 2,
+    "futureFixtures": 1,
+    "upcomingFixtures": 14,
     "liveFixtures": 0
   },
   {
@@ -92865,7 +92865,7 @@
     "tournamentName": "Hillcrest",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 8,
+    "futureFixtures": 3,
     "upcomingFixtures": 8,
     "liveFixtures": 0
   },
@@ -92885,8 +92885,8 @@
     "tournamentName": "Hillcrest",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 10,
-    "upcomingFixtures": 8,
+    "futureFixtures": 2,
+    "upcomingFixtures": 9,
     "liveFixtures": 0
   },
   {
@@ -92975,8 +92975,8 @@
     "tournamentName": "Bastia-Lucciana",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 10,
-    "upcomingFixtures": 6,
+    "futureFixtures": 1,
+    "upcomingFixtures": 10,
     "liveFixtures": 0
   },
   {
@@ -93006,7 +93006,7 @@
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
     "futureFixtures": 0,
-    "upcomingFixtures": 16,
+    "upcomingFixtures": 11,
     "liveFixtures": 56
   },
   {
@@ -93966,7 +93966,7 @@
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
     "futureFixtures": 0,
-    "upcomingFixtures": 8,
+    "upcomingFixtures": 0,
     "liveFixtures": 0
   },
   {
@@ -94015,8 +94015,8 @@
     "tournamentName": "San Salvador De Jujuy",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 0,
-    "upcomingFixtures": 13,
+    "futureFixtures": 4,
+    "upcomingFixtures": 4,
     "liveFixtures": 0
   },
   {
@@ -94385,8 +94385,8 @@
     "tournamentName": "Rancho Santa Fe",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 3,
-    "upcomingFixtures": 4,
+    "futureFixtures": 0,
+    "upcomingFixtures": 9,
     "liveFixtures": 0
   },
   {
@@ -95365,8 +95365,8 @@
     "tournamentName": "Wuning",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 4,
-    "upcomingFixtures": 10,
+    "futureFixtures": 8,
+    "upcomingFixtures": 7,
     "liveFixtures": 0
   },
   {
