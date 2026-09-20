@@ -4647,7 +4647,7 @@
     "categoryName": "Challenger",
     "futureFixtures": 3,
     "upcomingFixtures": 3,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 3835,
@@ -77427,7 +77427,7 @@
     "categoryName": "UTR Men",
     "futureFixtures": 8,
     "upcomingFixtures": 0,
-    "liveFixtures": 3
+    "liveFixtures": 2
   },
   {
     "tournamentId": 47894,
@@ -84936,8 +84936,8 @@
     "categorySlug": "simulated-reality",
     "categoryName": "Simulated Reality",
     "futureFixtures": 3,
-    "upcomingFixtures": 1,
-    "liveFixtures": 0
+    "upcomingFixtures": 0,
+    "liveFixtures": 1
   },
   {
     "tournamentId": 53318,
@@ -97515,6 +97515,16 @@
     "tournamentName": "Leme",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 905489,
+    "tournamentSlug": "plovdiv",
+    "tournamentName": "Plovdiv",
+    "categorySlug": "itf-women",
+    "categoryName": "ITF Women",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
     "liveFixtures": 0
