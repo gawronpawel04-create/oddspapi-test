@@ -3,20 +3,20 @@
   "source": "oddspapi_v4_github_actions",
   "provider": "oddspapi_v4",
   "bookmaker": "pinnacle",
-  "generated_at": "2026-09-24T21:38:12.699Z",
-  "window_from": "2026-09-24T00:00:00.000Z",
-  "window_to": "2026-09-27T00:00:00.000Z",
+  "generated_at": "2026-09-25T21:43:24.555Z",
+  "window_from": "2026-09-25T00:00:00.000Z",
+  "window_to": "2026-09-28T00:00:00.000Z",
   "sports_ok": true,
-  "tournaments_count": 9762,
-  "fixtures_count": 617,
+  "tournaments_count": 9765,
+  "fixtures_count": 424,
   "selected_tournaments_count": 4,
   "selected_tournament_ids": [
-    "3043",
     "14133",
+    "44317",
     "42979",
-    "44317"
+    "3043"
   ],
-  "odds_fixtures_count": 21,
-  "normalized_moneyline_count": 21,
+  "odds_fixtures_count": 16,
+  "normalized_moneyline_count": 16,
   "errors": []
 }
