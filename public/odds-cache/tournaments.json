@@ -81592,7 +81592,7 @@
   {
     "tournamentId": 41973,
     "tournamentSlug": "wta-125-antalya-turkiye-doubles",
-    "tournamentName": "WTA 125K Antalya, Turkiye Doubles",
+    "tournamentName": "WTA 125K Antalya, Turkiye Women Doubles",
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
     "futureFixtures": 0,
@@ -91682,7 +91682,7 @@
   {
     "tournamentId": 46953,
     "tournamentSlug": "wta-sao-paulo-brazil-women-singles",
-    "tournamentName": "WTA Sao Paulo, Brazil Women, Singles",
+    "tournamentName": "WTA Sao Paulo, Brazil Women Singles",
     "categorySlug": "wta",
     "categoryName": "WTA",
     "futureFixtures": 0,
@@ -91692,7 +91692,7 @@
   {
     "tournamentId": 46955,
     "tournamentSlug": "wta-sao-paulo-brazil-women-doubles",
-    "tournamentName": "WTA Sao Paulo, Brazil Women, Doubles",
+    "tournamentName": "WTA Sao Paulo, Brazil Women Doubles",
     "categorySlug": "wta",
     "categoryName": "WTA",
     "futureFixtures": 0,
@@ -101660,6 +101660,96 @@
     "liveFixtures": 0
   },
   {
+    "tournamentId": 53972,
+    "tournamentSlug": "atp-challenger-ankara-turkiye",
+    "tournamentName": "ATP Challenger Ankara, Turkiye",
+    "categorySlug": "challenger",
+    "categoryName": "Challenger",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53974,
+    "tournamentSlug": "atp-challenger-ankara-turkiye-men-singles",
+    "tournamentName": "ATP Challenger Ankara, Turkiye Men Singles",
+    "categorySlug": "challenger",
+    "categoryName": "Challenger",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53976,
+    "tournamentSlug": "atp-challenger-ankara-turkiye-men-doubles",
+    "tournamentName": "ATP Challenger Ankara, Turkiye Men Doubles",
+    "categorySlug": "challenger",
+    "categoryName": "Challenger",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53978,
+    "tournamentSlug": "atp-challenger-trnava-2-slovakia",
+    "tournamentName": "ATP Challenger Trnava 2, Slovakia",
+    "categorySlug": "challenger",
+    "categoryName": "Challenger",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53980,
+    "tournamentSlug": "atp-challenger-trnava-2-slovakia-men-singles",
+    "tournamentName": "ATP Challenger Trnava 2, Slovakia Men Singles",
+    "categorySlug": "challenger",
+    "categoryName": "Challenger",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53982,
+    "tournamentSlug": "atp-challenger-trnava-2-slovakia-men-doubles",
+    "tournamentName": "ATP Challenger Trnava 2, Slovakia Men Doubles",
+    "categorySlug": "challenger",
+    "categoryName": "Challenger",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53992,
+    "tournamentSlug": "wta-manila-philippines",
+    "tournamentName": "WTA Manila, Philippines",
+    "categorySlug": "wta",
+    "categoryName": "WTA",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53994,
+    "tournamentSlug": "wta-manila-philippines-women-singles",
+    "tournamentName": "WTA Manila, Philippines Women Singles",
+    "categorySlug": "wta",
+    "categoryName": "WTA",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 53996,
+    "tournamentSlug": "wta-manila-philippines-women-doubles",
+    "tournamentName": "WTA Manila, Philippines Women Doubles",
+    "categorySlug": "wta",
+    "categoryName": "WTA",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
     "tournamentId": 903222,
     "tournamentSlug": "santiago",
     "tournamentName": "Santiago",
@@ -102855,8 +102945,8 @@
     "tournamentName": "Singapore",
     "categorySlug": "itf-women",
     "categoryName": "ITF Women",
-    "futureFixtures": 0,
-    "upcomingFixtures": 5,
+    "futureFixtures": 4,
+    "upcomingFixtures": 1,
     "liveFixtures": 0
   },
   {
@@ -108825,8 +108915,8 @@
     "tournamentName": "Singapore",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 0,
-    "upcomingFixtures": 11,
+    "futureFixtures": 4,
+    "upcomingFixtures": 7,
     "liveFixtures": 0
   },
   {
@@ -111655,8 +111745,8 @@
     "tournamentName": "Shenzhen",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
-    "futureFixtures": 0,
-    "upcomingFixtures": 4,
+    "futureFixtures": 4,
+    "upcomingFixtures": 0,
     "liveFixtures": 0
   },
   {
@@ -114307,6 +114397,36 @@
     "categoryName": "ITF Women",
     "futureFixtures": 0,
     "upcomingFixtures": 8,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 905547,
+    "tournamentSlug": "mazatlan",
+    "tournamentName": "Mazatlan",
+    "categorySlug": "itf-men",
+    "categoryName": "ITF Men",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 905548,
+    "tournamentSlug": "joao-pessoa",
+    "tournamentName": "Joao Pessoa",
+    "categorySlug": "itf-men",
+    "categoryName": "ITF Men",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 905549,
+    "tournamentSlug": "fergana",
+    "tournamentName": "Fergana",
+    "categorySlug": "itf-men",
+    "categoryName": "ITF Men",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
     "liveFixtures": 0
   }
 ]
