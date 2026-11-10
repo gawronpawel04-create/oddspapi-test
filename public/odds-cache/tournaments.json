@@ -537,7 +537,7 @@
     "categoryName": "ATP",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
-    "liveFixtures": 2
+    "liveFixtures": 4
   },
   {
     "tournamentId": 2615,
@@ -677,7 +677,7 @@
     "categoryName": "ATP",
     "futureFixtures": 7,
     "upcomingFixtures": 5,
-    "liveFixtures": 1
+    "liveFixtures": 2
   },
   {
     "tournamentId": 2663,
@@ -685,9 +685,9 @@
     "tournamentName": "ATP Paris, France Men Doubles",
     "categorySlug": "atp",
     "categoryName": "ATP",
-    "futureFixtures": 9,
+    "futureFixtures": 8,
     "upcomingFixtures": 2,
-    "liveFixtures": 1
+    "liveFixtures": 2
   },
   {
     "tournamentId": 2665,
@@ -6577,7 +6577,7 @@
     "categoryName": "Challenger",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
-    "liveFixtures": 0
+    "liveFixtures": 1
   },
   {
     "tournamentId": 4633,
@@ -8787,7 +8787,7 @@
     "categoryName": "Challenger",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
-    "liveFixtures": 0
+    "liveFixtures": 1
   },
   {
     "tournamentId": 5799,
@@ -15457,7 +15457,7 @@
     "categoryName": "WTA 125K",
     "futureFixtures": 3,
     "upcomingFixtures": 4,
-    "liveFixtures": 0
+    "liveFixtures": 1
   },
   {
     "tournamentId": 9421,
@@ -19167,7 +19167,7 @@
     "categoryName": "Challenger",
     "futureFixtures": 4,
     "upcomingFixtures": 3,
-    "liveFixtures": 0
+    "liveFixtures": 1
   },
   {
     "tournamentId": 11465,
@@ -66906,8 +66906,8 @@
     "categorySlug": "challenger",
     "categoryName": "Challenger",
     "futureFixtures": 7,
-    "upcomingFixtures": 3,
-    "liveFixtures": 2
+    "upcomingFixtures": 5,
+    "liveFixtures": 0
   },
   {
     "tournamentId": 30863,
@@ -73887,7 +73887,7 @@
     "categoryName": "WTA",
     "futureFixtures": 7,
     "upcomingFixtures": 1,
-    "liveFixtures": 1
+    "liveFixtures": 2
   },
   {
     "tournamentId": 37309,
@@ -84457,7 +84457,7 @@
     "categoryName": "Challenger",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
-    "liveFixtures": 2
+    "liveFixtures": 0
   },
   {
     "tournamentId": 43505,
@@ -89697,7 +89697,7 @@
     "categoryName": "ATP",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 45937,
@@ -90367,7 +90367,7 @@
     "categoryName": "UTR Men",
     "futureFixtures": 5,
     "upcomingFixtures": 0,
-    "liveFixtures": 1
+    "liveFixtures": 2
   },
   {
     "tournamentId": 46245,
@@ -96532,7 +96532,7 @@
   {
     "tournamentId": 49966,
     "tournamentSlug": "atp-challenger-baton-rouge-usa",
-    "tournamentName": "ATP Challenger Baton Rouge, USA",
+    "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
     "futureFixtures": 0,
@@ -96552,7 +96552,7 @@
   {
     "tournamentId": 49970,
     "tournamentSlug": "atp-challenger-baton-rouge-usa-men-singles",
-    "tournamentName": "ATP Challenger Baton Rouge, USA Men Singles",
+    "tournamentName": "NIU",
     "categorySlug": "challenger",
     "categoryName": "Challenger",
     "futureFixtures": 0,
@@ -100007,7 +100007,7 @@
     "categoryName": "WTA 125K",
     "futureFixtures": 0,
     "upcomingFixtures": 0,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 52462,
@@ -100046,8 +100046,8 @@
     "categorySlug": "wta-125k",
     "categoryName": "WTA 125K",
     "futureFixtures": 4,
-    "upcomingFixtures": 2,
-    "liveFixtures": 1
+    "upcomingFixtures": 3,
+    "liveFixtures": 0
   },
   {
     "tournamentId": 52470,
@@ -101286,7 +101286,7 @@
     "categorySlug": "challenger",
     "categoryName": "Challenger",
     "futureFixtures": 7,
-    "upcomingFixtures": 2,
+    "upcomingFixtures": 3,
     "liveFixtures": 3
   },
   {
@@ -101607,7 +101607,7 @@
     "categoryName": "UTR Men",
     "futureFixtures": 8,
     "upcomingFixtures": 8,
-    "liveFixtures": 1
+    "liveFixtures": 0
   },
   {
     "tournamentId": 53936,
@@ -101617,7 +101617,7 @@
     "categoryName": "UTR Women",
     "futureFixtures": 8,
     "upcomingFixtures": 2,
-    "liveFixtures": 3
+    "liveFixtures": 2
   },
   {
     "tournamentId": 53938,
@@ -114623,6 +114623,16 @@
     "tournamentId": 905560,
     "tournamentSlug": "roldan",
     "tournamentName": "Roldan",
+    "categorySlug": "itf-men",
+    "categoryName": "ITF Men",
+    "futureFixtures": 0,
+    "upcomingFixtures": 0,
+    "liveFixtures": 0
+  },
+  {
+    "tournamentId": 905561,
+    "tournamentSlug": "zamora",
+    "tournamentName": "Zamora",
     "categorySlug": "itf-men",
     "categoryName": "ITF Men",
     "futureFixtures": 0,
