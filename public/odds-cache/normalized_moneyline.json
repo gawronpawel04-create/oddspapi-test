@@ -2,55 +2,55 @@
   {
     "source": "oddspapi_v4_github_actions",
     "bookmaker": "pinnacle",
-    "fixture_id": "id1202140676736446",
+    "fixture_id": "id1202140676736464",
     "tournament_id": 21406,
     "sport_id": 12,
-    "start_time": "2026-11-17T13:00:00.000Z",
+    "start_time": "2026-11-18T13:00:00.000Z",
     "has_odds": true,
     "status": "moneyline_found",
     "markets": [
       {
         "market_id": "121",
-        "bookmaker_market_id": "line/33/301857/1640410910/3808067033/0/moneyline",
+        "bookmaker_market_id": "line/33/301857/1640413776/3808567750/0/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "121",
             "bookmaker_outcome_id": "home",
-            "price": 1.98,
+            "price": 1.262,
             "active": true,
-            "limit": 9566,
+            "limit": 28625,
             "name": null
           },
           {
             "outcome_id": "122",
             "bookmaker_outcome_id": "away",
-            "price": 1.909,
+            "price": 4.22,
             "active": true,
-            "limit": 10313,
+            "limit": 7500,
             "name": null
           }
         ]
       },
       {
         "market_id": "123",
-        "bookmaker_market_id": "line/33/301857/1640410910/3808067034/1/moneyline",
+        "bookmaker_market_id": "line/33/301857/1640413776/3808567751/1/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "123",
             "bookmaker_outcome_id": "home",
-            "price": 1.97,
+            "price": 1.406,
             "active": true,
-            "limit": 7242,
+            "limit": 13854,
             "name": null
           },
           {
             "outcome_id": "124",
             "bookmaker_outcome_id": "away",
-            "price": 1.9,
+            "price": 3.1,
             "active": true,
-            "limit": 7805,
+            "limit": 5625,
             "name": null
           }
         ]
@@ -60,55 +60,55 @@
   {
     "source": "oddspapi_v4_github_actions",
     "bookmaker": "pinnacle",
-    "fixture_id": "id1202140676736442",
+    "fixture_id": "id1202140676736462",
     "tournament_id": 21406,
     "sport_id": 12,
-    "start_time": "2026-11-17T19:30:00.000Z",
+    "start_time": "2026-11-18T19:30:00.000Z",
     "has_odds": true,
     "status": "moneyline_found",
     "markets": [
       {
         "market_id": "121",
-        "bookmaker_market_id": "line/33/301857/1640406607/3808070067/0/moneyline",
+        "bookmaker_market_id": "line/33/301857/1640410913/3808567754/0/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "121",
             "bookmaker_outcome_id": "home",
-            "price": 1.534,
+            "price": 2.16,
             "active": true,
-            "limit": 17556,
+            "limit": 7500,
             "name": null
           },
           {
             "outcome_id": "122",
             "bookmaker_outcome_id": "away",
-            "price": 2.65,
+            "price": 1.769,
             "active": true,
-            "limit": 9375,
+            "limit": 9752,
             "name": null
           }
         ]
       },
       {
         "market_id": "123",
-        "bookmaker_market_id": "line/33/301857/1640406607/3808070068/1/moneyline",
+        "bookmaker_market_id": "line/33/301857/1640410913/3808567755/1/moneyline",
         "market_active": true,
         "outcomes": [
           {
             "outcome_id": "123",
             "bookmaker_outcome_id": "home",
-            "price": 1.632,
+            "price": 2.08,
             "active": true,
-            "limit": 11115,
+            "limit": 5625,
             "name": null
           },
           {
             "outcome_id": "124",
             "bookmaker_outcome_id": "away",
-            "price": 2.37,
+            "price": 1.806,
             "active": true,
-            "limit": 7025,
+            "limit": 6978,
             "name": null
           }
         ]
